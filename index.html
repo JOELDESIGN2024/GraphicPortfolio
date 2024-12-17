@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | Burger House</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img
+                src="assets/logo-dark.png"
+                alt="logo"
+                class="nav__logo-dark"
+              />
+              <img
+                src="assets/logo-white.png"
+                alt="logo"
+                class="nav__logo-white"
+              />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#menu">MENU</a></li>
+          <li><a href="#event">EVENTS</a></li>
+          <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h2>BRINGING GREAT TASTE TO VISUALS - GRAPHIC DESIGN THAT MAKES AN IMPACT </h2>
+          <h1>JOEL<br /><span>ONYEOKORO</span></h1>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container order__container" id="menu">
+      <h3>Always innovative, always impactful—designs that capture attention and leave a lasting impression.</h3>
+      <h2 class="section__header">CHOOSE & ENJOY</h2>
+      <p class="section__description">
+Whether you seek timeless designs or bold, innovative concepts, this is where your creative journey begins. Bring your vision to life and explore endless possibilities as you craft your personalized design experience with me. 
+      </p>
+      <div class="order__grid">
+        <div class="order__card">
+          <img src="assets/order-1.png" alt="order" />
+          <h4>Bold yet classic</h4>
+          <p>
+            Our graphic design is about creating timeless visuals that communicate your story with clarity, creativity, and impact.
+          </p>
+        </div>
+        <div class="order__card">
+          <img src="assets/order-2.png" alt="order" />
+          <h4>Fresh, vibrant, and full of life</h4>
+          <p>
+            Where creativity meets precision—design that never goes out of style.
+          </p>
+        </div>
+        <div class="order__card">
+          <img src="assets/order-3.png" alt="order" />
+          <h4>Rich, layered, and unforgettable</h4>
+          <p>
+            Great design is more than visuals; it's an experience. We create graphic designs that connect, inspire, and endure.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container event__container" id="event">
+      <div class="event__content">
+        <div class="event__image">
+          <img src="assets/event.png" alt="event" />
+        </div>
+        <div class="event__details">
+          <h3>Discover</h3>
+          <h2 class="section__header">UPCOMING EVENTS</h2>
+          <p class="section__description">
+            From exclusive design showcases and creative collaborations to community-driven projects and seasonal campaigns, there’s always something inspiring happening at our design studio. Be the first to discover our upcoming projects, workshops, and innovations as we continue to bring creativity and impact to every client we serve. Join us in crafting memorable visuals and timeless designs together!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="reservation" id="contact">
+      <div class="section__container reservation__container">
+        <h3>CONTACT ME</h3>
+        <h2 class="section__header">BOOK YOUR DESIGN</h2>
+        <form action="https://formsubmit.co/joelonyeokoro@gmail.com" method="POST">
+          <input type="text" name="name"placeholder="NAME" />
+          <input type="email" name="email" placeholder="EMAIL" />
+          <input type="text" name="phone" placeholder="PHONE" />
+          <input type="text" name="subject" placeholder="SUBJECT" />
+          <button class="btn" type="submit">GET</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__logo">
+          <img src="assets/logo-white.png" alt="logo" />
+        </div>
+        <div class="footer__content">
+          <p>
+Whether you prefer timeless designs or bold, innovative concepts, this is where your creative journey begins. Bring your vision to life and make every detail count as you craft your personalized graphic design experience with me.
+          </p>
+          <div>
+            <ul class="footer__links">
+              <li>
+                <span><i class="ri-map-pin-2-fill"></i></span>
+                Abuja, Kuje, Opp forest-High Court Road
+              </li>
+              <li>
+                <span><i class="ri-mail-fill"></i></span>
+                joelonyeokoro@gmail.com
+              </li>
+            </ul>
+            <div class="footer__socials">
+              <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+              <a href="#"><i class="ri-instagram-fill"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+              <a href="#"><i class="ri-whatsapp-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 JOEL ONYEOKORO. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
